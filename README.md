@@ -12,9 +12,15 @@ So for developing desktop apps it is a good start to have the developer environm
 2. Find the `RUSTUP-INI.EXE` (6MB) Download it and run it.  
 3. Windows Defender will warn you that the app is unrecognized. Choose `More info` and `Run anyway`. Take your responsabilities!  
 4. Read the text in the console and answer with default choices. They are ok for the first time install.  
-5. It will download and install a number of tools and documentation. Be patient with the docs, they take a looong time. There is a big discussion in the Rust community to not install them by default and let the user choose them later. But now we have what we have.  
+5. If you don't have MSVC (microsoft visual C++) installed, you will get a warning.  
+Find the installation here and install it:  
+https://aka.ms/vs/15/release/vc_redist.x64.exe  
+The description is here: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads  
+6. Rustup will download and install a number of tools and documentation. Be patient with the docs, they take a looong time. There is a big discussion in the Rust community to not install them by default and let the user choose them later. But now we have what we have.  
+Maybe you will need the C++ libraries:  
+  
 That's it. Rust is installed. Super simple.  
-
+  
 ## The first project  
 Press `window + s` (`window` is this strange key on the keyboard in the first row near `ctrl` and `alt`) it opens the start menu.  
 Start typing `command prompt` it will suggest you exactly that and press Enter to run it.  
