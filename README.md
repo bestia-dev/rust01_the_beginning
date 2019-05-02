@@ -15,16 +15,15 @@ So for developing desktop apps it is a good start to have the developer environm
 5. If you don't have `Tools for Visual Studio 2019` for C++ installed on your machine, you will get a warning by the installer.  
 Find the installation of C++ tools here and install it:  
 https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16  
-The file name is something like vs_buildtools__1788641612.1545772962.exe.  
-It downloads the installer with a graphical user interface.  
+The file name is something like `vs_buildtools__1788641612.1545772962.exe`.  
+It downloads the true installer with a graphical user interface.  
 You have to choose 
 - `C++ build tools` on the left 
-- and then `Windows 10 SDK xxx` on the right. .
+- and then `Windows 10 SDK xxx` on the right.  
 It will download and install 4.4 GB.  
 6. Rustup will download and install a number of tools and documentation. Be patient with the docs, they take a looong time. There is a big discussion in the Rust community to not install them by default and let the user choose them later. But now we have what we have.  
-Maybe you will need the C++ libraries:  
   
-That's it. Rust is installed. Super simple.  
+That's it. Rust is installed. Super simple (except for the C++ tools).  
   
 ## The first project  
 Press `window + s` (`window` is this strange key on the keyboard in the first row near `ctrl` and `alt`) it opens the start menu.  
