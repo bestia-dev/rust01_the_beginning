@@ -43,6 +43,7 @@ Run it and add a couple of extensions (Ctrl+Shift+X):
 - crates
 - Better TOML
 - Beautify  
+
 Open your project with  
 `File - Open Folder... - c:\users\Luciano\rustprojects\first_hello`  
 Use your username here instead of mine.  
