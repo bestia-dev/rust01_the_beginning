@@ -3,7 +3,7 @@ Things are changing fast. This is the situation on 2019-05-02. Luciano Bestia
 The first project in Rust. How to install the toolchain and have a first result in 5 minutes. 
 There is almost always a lot of different ways to achieve some result. I will describe only one option - for simplicity.  
 The learning process is easier if it is simple. But the reality is always much much more complicated then that.  
-Knowledge must come in small drops to absorb it. If it is pouring it just confuses the curious mind.
+Knowledge must come in small drops to absorb it. If it is pouring it just confuses the curious mind.  
 The "book" https://doc.rust-lang.org/1.0.0/book/ is a great learning tool. The first chapters are really easy and practical and very well written. Use it.   
 ## Windows
 I used Windows most of my long programmers life (33 years). It is still the number one desktop OS.  
