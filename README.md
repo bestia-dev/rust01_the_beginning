@@ -4,10 +4,10 @@ The first project in Rust. How to install the toolchain and have a first result 
 There is almost always a lot of different ways to achieve some result. I will describe only one option - for simplicity.  
 The learning process is easier if it is simple. But the reality is always much much more complicated then that.  
 Knowledge must come in small drops to absorb it. If it is pouring it just confuses the curious mind.  
-The "book" https://doc.rust-lang.org/1.0.0/book/ is a great learning tool. The first chapters are really easy and practical and very well written. Use it.   
+The "book" https://doc.rust-lang.org/stable/book/ is a great learning tool. The first chapters are really easy and practical and very well written. Use it.   
 ## Windows  
 I used Windows most of my long programmers life (33 years). It is still the number one desktop OS.  
-So for developing desktop apps is a good start to have the developer environment inside Windows.  
+So for developing desktop apps it is a good start to have the developer environment inside Windows.  
 1. Go to https://www.rust-lang.org and choose `GET STARTED`.  
 2. Find the `RUSTUP-INI.EXE` (6MB) Download it and run it.  
 3. Windows Defender will warn you that the app is unrecognized. Choose `More info` and `Run anyway`. Take your responsabilities!  
@@ -36,7 +36,7 @@ Congratulations! You wrote your first working rust project.
   
 I am sure you want to try this again one more time.  
 Press the `arrow up`. The command prompt will suggest the last typed command from history. In this moment it is `cargo run`. Run it by pressing Enter.  
-This history stuff is super useful, because you will repeat the same commands a lot.  
+This history stuff with `arrow up` and `arrow down` is super useful, because you will repeat the same commands a lot.  
 This time the compilation is really fast, because there is nothing new to compile.  
 ## VSCode
 Now you want to see and change the code. I choose the opensource editor VSCode.  
@@ -59,7 +59,34 @@ You can also use it to push or sync the changes on GitHub and much more. Then th
 
 TODO:  
 ## WSL Windows subsystem for Linux
-In the command prompt you can use %HOMEPATH% in windows is like ~ in Linux. It is your user folder. For me is C:\users\Luciano  
-Windows can very often understand both \ and / as folder delimiters, but not always. In Linux there is only /. So it is smart to learn to user / everywhere where it works.  
+Most of the servers in the world today are Linux. So you want a Linux environment to develop for Linux servers. It is possible now to use WSL `Windows subsystem for Linux` inside your Windows machine. It feels just like Linux for almost everything you'll need.  
+It is like having a virtual machine, but a little bit simpler.  
+Here is how to enable it and install it:  
+https://docs.microsoft.com/en-us/windows/wsl/install-win10  
+I choose the Debian GNU/Linux distro. Old school.  
+From WSL Linux you can use the files in Windows. But from Windows you cannot use files in WSL Linux. I want my rustprojects to be accessible from both OS.  
+I create a symlink in WSL to the /rustprojects folder  
+`ln -s /mnt/c/Users/Luciano/rustprojects ~/rustprojects`  
+Now when I start Debian, I can command  
+`cd rustprojects`  
+and I am inside the same rustprojects folder as in Windows.  
+  
+Installing rust on Linux is simple:  
+`$ curl https://sh.rustup.rs -sSf | sh`  
+You will find this info in the "book": https://doc.rust-lang.org/stable/book/  
+If you build a project in Linux the result will be for Linux. And if you build it in Windows, the result will be for Windows. The results are incompatible.  
+Go to the folder of first_helllo  
+`cd first_hello`  
+and build and run the project  
+`cargo run`  
+Congratulations! The same projects now works also on Linux.  
+In the `/target` folder there are separate result for Windows an for Linux.  
 
+
+
+For the curious TL;DR;  
+The user home folder is called `~` in Linux and mostly `%HOMEPATH%` in Windows.  
+Windows can very often understand both \ and / as folder delimiters, but not always. In Linux there is only /. So it is smart to learn to user / everywhere where it works.  
+  
+  
 
