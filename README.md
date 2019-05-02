@@ -12,10 +12,11 @@ So for developing desktop apps it is a good start to have the developer environm
 2. Find the `RUSTUP-INI.EXE` (6MB) Download it and run it.  
 3. Windows Defender will warn you that the app is unrecognized. Choose `More info` and `Run anyway`. Take your responsabilities!  
 4. Read the text in the console and answer with default choices. They are ok for the first time install.  
-5. If you don't have MSVC (microsoft visual C++) installed, you will get a warning.  
+5. If you don't have `Tools for Visual Studio 2019` installed, you will get a warning.  
 Find the installation here and install it:  
-https://aka.ms/vs/15/release/vc_redist.x64.exe  
-The description is here: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads  
+https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16  
+The description is here: https://visualstudio.microsoft.com/downloads/  
+in the section `Tools for Visual Studio 2019`  
 6. Rustup will download and install a number of tools and documentation. Be patient with the docs, they take a looong time. There is a big discussion in the Rust community to not install them by default and let the user choose them later. But now we have what we have.  
 Maybe you will need the C++ libraries:  
   
