@@ -33,7 +33,7 @@ Let build it and run it:
 Congratulations! You wrote your first working rust project.  
   
 I am sure you want to try this again.  
-Press the "arrow up". The command prompt will suggest the last typed command from history. Run it by pressing Enter.  
+Press the "arrow up". The command prompt will suggest the last typed command from history. In this moment it is `cargo run`. Run it by pressing Enter. This history is super usefull, because you will repeat the same commands a lot.  
 This time the compilation is really fast, because there is nothing new to compile.  
 ## VSCode
 Now you want to see and change the code. I choose the opensource editor VSCode.  
@@ -50,7 +50,7 @@ Simple Rust projects are basically just a folder. There is a convention of subfo
 Change the word `Hello` into `First Hello` and save it with `Ctrl+s`.  
 You already know from before how to build and run it. Give it a try and show what you have learned.  
 
-
+TODO:  
 ## Git
 
 ## WSL Windows subsystem for Linux
