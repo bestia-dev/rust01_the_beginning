@@ -57,34 +57,32 @@ The third icon on the left or `Ctrl + Shift + g` opens a simple list: what has c
 If you want to see the changes you select a filename. The changes will show on the right.  
 You can also use it to push or sync the changes on GitHub and much more. Then there is a specific `.gitignore` file for rust source code. This is advanced stuff. You will learn it step by step.  
 
-TODO:  
 ## WSL Windows subsystem for Linux
-Most of the servers in the world today are Linux. So you want a Linux environment to develop for Linux servers. It is possible now to use WSL `Windows subsystem for Linux` inside your Windows machine. It feels just like Linux for almost everything you'll need.  
-It is like having a virtual machine, but a little bit simpler.  
+Most of the servers in the world today are Linux. So you want a Linux environment to develop for Linux servers. It is possible now to use WSL `Windows subsystem for Linux` inside your Windows machine. It feels just like Linux for almost everything you'll need. It is like having a virtual machine, but a little bit simpler.  
 Here is how to enable it and install it:  
 https://docs.microsoft.com/en-us/windows/wsl/install-win10  
 I choose the Debian GNU/Linux distro. Old school.  
-From WSL Linux you can use the files in Windows. But from Windows you cannot use files in WSL Linux. I want my rustprojects to be accessible from both OS.  
-I create a symlink in WSL to the /rustprojects folder  
+From WSL Linux you can use the files in Windows. But from Windows you cannot use files in WSL Linux. I want my `/rustprojects` files to be accessible from both OS.  
+I create a symlink in WSL to the `/rustprojects` folder  
 `ln -s /mnt/c/Users/Luciano/rustprojects ~/rustprojects`  
 Now when I start Debian, I can command  
 `cd rustprojects`  
 and I am inside the same rustprojects folder as in Windows.  
+The linux bash (console) has also suggestions for subfolder names if you type `cd r` and then Tab key, but it is not so userfriendly as in windows. It has also the command history with `arrow up` and `arrow down`. That is great because it remembers also the old commands from old sessions.  
   
 Installing rust on Linux is simple:  
 `$ curl https://sh.rustup.rs -sSf | sh`  
 You will find this info in the "book": https://doc.rust-lang.org/stable/book/  
-If you build a project in Linux the result will be for Linux. And if you build it in Windows, the result will be for Windows. The results are incompatible.  
-Go to the folder of first_helllo  
+  
+If you build a project in Linux the result will be for Linux. And if you build it in Windows, the result will be for Windows. The results are binary incompatible.  
+Go to the folder /first_hello  
 `cd first_hello`  
 and build and run the project  
 `cargo run`  
-Congratulations! The same projects now works also on Linux.  
+Congratulations! The same project now works also on Linux.  
 In the `/target` folder there are separate result for Windows an for Linux.  
-
-
-
-For the curious TL;DR;  
+  
+## For the curious TL;DR;  
 The user home folder is called `~` in Linux and mostly `%HOMEPATH%` in Windows.  
 Windows can very often understand both \ and / as folder delimiters, but not always. In Linux there is only /. So it is smart to learn to user / everywhere where it works.  
   
