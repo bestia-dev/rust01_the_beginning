@@ -15,6 +15,8 @@ So for developing desktop apps it is a good start to have the developer environm
 5. If you don't have `Tools for Visual Studio 2019` installed, you will get a warning.  
 Find the installation here and install it:  
 https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16  
+The file name is something like vs_buildtools__1788641612.1545772962.exe.  
+It downloads then another 65 MB and install that.  
 The description is here: https://visualstudio.microsoft.com/downloads/  
 in the section `Tools for Visual Studio 2019`. This URL can change any moment.  
 6. Rustup will download and install a number of tools and documentation. Be patient with the docs, they take a looong time. There is a big discussion in the Rust community to not install them by default and let the user choose them later. But now we have what we have.  
