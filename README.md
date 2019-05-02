@@ -20,7 +20,7 @@ Press "window+s" (window is this strange key on the keyboard) it opens the start
 Start typing "command prompt" it will suggest you exactly that and press Enter to run it.  
 You should be inside your user folder. For me it is C:\Users\Luciano.  
 I created a folder with the name all smallcaps "rustprojects" inside my user folder.  
-You will see later why all smallcaps.  
+In Windows file/folder names are not case sensitive, but in Linux they are. Be carefull.  
 `mkdir rustprojects`  
 `cd rustprojects`  
 We will create a new rust project with this simple command  
@@ -33,16 +33,13 @@ Let build it and run it:
 Congratulations! You wrote your first working rust project.  
   
 I am sure you want to try this again.  
-Press the "arrow up". The command prompt will suggest the last typed command from the history. Run it by pressing Enter.  
-This time the compilation is really fast, because there is nothing to compile.  
-
-
-
-
-
-## WSL Windows subsystem for Linux
+Press the "arrow up". The command prompt will suggest the last typed command from history. Run it by pressing Enter.  
+This time the compilation is really fast, because there is nothing new to compile.  
+  
+  
 
 ## VSCode
 
 ## Git
 
+## WSL Windows subsystem for Linux
