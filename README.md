@@ -76,18 +76,19 @@ Installing rust on Linux is simple:
 `$ curl https://sh.rustup.rs -sSf | sh`  
 You will find this info in the "book": https://doc.rust-lang.org/stable/book/  
   
-If you build a project in Linux the result will be for Linux. And if you build it in Windows, the result will be for Windows. The results are binary incompatible. 
 Go to the folder /first_hello  
 `cd first_hello`  
 and build and run the project  
 `cargo run`  
 Congratulations! The same project now works in Windows and also on Linux.  
-The result is in the `/target` foder. Normally the windows file ends with `.exe` like `first_hello.exe`, but the Linux file has no extension like `first_hello`.  
   
-You can still use the Windows VSCode for editing the source code and windows Git for versioning. You then use the Debian bash to build and run it.  
+The result is in the `/target` foder. Normally the windows file ends with `.exe` like `first_hello.exe`, but the Linux file has no extension like `first_hello`.  
+If you build a project in Linux the result will be for Linux. And if you build it in Windows, the result will be for Windows. The results are binary incompatible.  
+  
+You can still use the Windows VSCode for editing the source code and windows Git for versioning. You then use the Debian bash just to build it and run it.  
 ## For the curious TL;DR;  
 The user home folder is called `~` in Linux and mostly `%HOMEPATH%` in Windows.  
 Windows can very often understand both \ and / as folder delimiters, but not always. In Linux there is only /. So it is smart to learn to user / everywhere where it works.  
-  
+Linux file/folder names are very very case sensitive, windows are case insensitive. That can make a lot of confusion. Try to write always smallcaps names if it is possible. And try to avoid spaces and strange characters. Underscore is very well understood in every situation, I recommand it.  
   
 
