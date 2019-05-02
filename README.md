@@ -35,11 +35,26 @@ Congratulations! You wrote your first working rust project.
 I am sure you want to try this again.  
 Press the "arrow up". The command prompt will suggest the last typed command from history. Run it by pressing Enter.  
 This time the compilation is really fast, because there is nothing new to compile.  
-  
-  
-
 ## VSCode
+Now you want to see and change the code. I choose the opensource editor VSCode.  
+Download it and install it from here https://code.visualstudio.com/  
+Run it and add a couple of extensions (Ctrl+Shift+X):
+- Rust (rls)
+- crates
+- Better TOML
+- Beautify  
+Open your project with  
+`File - Open Folder... - c:\users\Luciano\rustprojects\first_hello`  
+Use your username here instead of mine.  
+Simple Rust projects are basically just a folder. There is a convention of subfolders names and it works just that simple. You will find your code in the `src` subfolder in the file `main.rs`.  
+Change the word `Hello` into `First Hello` and save it with `Ctrl+s`.  
+You already know from before how to build and run it. Give it a try and show what you have learned.  
+
 
 ## Git
 
 ## WSL Windows subsystem for Linux
+In the command prompt you can use %HOMEPATH% in windows is like ~ in Linux. It is your user folder. For me is C:\users\Luciano  
+Windows can very often understand both \ and / as folder delimiters, but not always. In Linux there is only /. So it is smart to learn to user / everywhere where it works.  
+
+
