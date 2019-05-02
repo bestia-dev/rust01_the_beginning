@@ -65,9 +65,11 @@ I choose the Debian GNU/Linux distro. Old school.
 From WSL Linux you can use the files in Windows. But from Windows you cannot use files in WSL Linux. I want my `/rustprojects` files to be accessible from both OS.  
 I create a symlink in WSL to the `/rustprojects` folder  
 `ln -s /mnt/c/Users/Luciano/rustprojects ~/rustprojects`  
-Now when I start Debian, I can command  
+Now when I start Debian I am in my home user folder `~`  
+`luciano@MyMachine2015:~$`  
+and I can command  
 `cd rustprojects`  
-and I am inside the same rustprojects folder as in Windows.  
+I am now inside the same `/rustprojects` folder as in Windows.  
 The linux bash (console) has also suggestions for subfolder names if you type `cd r` and then Tab key, but it is not so userfriendly as in windows. It has also the command history with `arrow up` and `arrow down`. That is great because it remembers also the old commands from old sessions.  
   
 Installing rust on Linux is simple:  
@@ -80,7 +82,7 @@ Go to the folder /first_hello
 and build and run the project  
 `cargo run`  
 Congratulations! The same project now works also on Linux.  
-In the `/target` folder there are separate result for Windows an for Linux.  
+In the `/target` folder there are separate result for Windows and for Linux.  
   
 ## For the curious TL;DR;  
 The user home folder is called `~` in Linux and mostly `%HOMEPATH%` in Windows.  
