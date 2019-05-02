@@ -12,16 +12,16 @@ So for developing desktop apps it is a good start to have the developer environm
 2. Find the `RUSTUP-INI.EXE` (6MB) Download it and run it.  
 3. Windows Defender will warn you that the app is unrecognized. Choose `More info` and `Run anyway`. Take your responsabilities!  
 4. Read the text in the console and answer with default choices. They are ok for the first time install.  
-5. If you don't have `Tools for Visual Studio 2019` for C++ installed on your machine, you will get a warning by the installer and instruct you what to do.  
+5. If you don't have `Tools for Visual Studio 2019` for C++ installed on your machine, you will get a warning by the installer and instruction what to do.  
 Find the installation of C++ tools here and install it:  
 https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16  
 The file name is something like `vs_buildtools__1788641612.1545772962.exe`.  
 It downloads the true installer with a graphical user interface.  
 You have to choose 
 - `C++ build tools` on the left 
-- and then `Windows 10 SDK xxx` on the right.  
+- and then the latest `Windows 10 SDK xxx` on the right.  
 It will download (1.2 GB) and then install (4.4 GB).  
-Rerun the `RUSTUP-INI.EXE` now.
+Rerun the `RUSTUP-INI.EXE` now and choose the defaults.
 6. Rustup will download and install a number of tools and documentation. Be patient with the docs, they take a looong time. There is a big discussion in the Rust community to not install them by default and let the user choose them later. But now we have what we have.  
   
 That's it. Rust is installed. Super simple (except for the C++ tools).  
