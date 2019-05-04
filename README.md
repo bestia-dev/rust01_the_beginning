@@ -21,7 +21,8 @@ You have to choose
 - `C++ build tools` on the left 
 - and then the latest `Windows 10 SDK xxx` on the right.  
 It will download (1.2 GB) and then install (4.4 GB).  
-Rerun the `RUSTUP-INI.EXE` now and choose the defaults.
+Probably now you have to restart your PC.  
+GOTO step 2.  
 6. Rustup will download and install a number of tools and documentation. Be patient with the docs, they take a looong time. There is a big discussion in the Rust community to not install them by default and let the user choose them later. But now we have what we have.  
   
 That's it. Rust is installed. Super simple (except for the C++ tools).  
