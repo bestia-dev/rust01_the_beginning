@@ -33,10 +33,14 @@ Start typing `command prompt` it will suggest you exactly that and press Enter t
 You should be inside your user folder. For me it is `C:\Users\Luciano`.  
 I created a folder with the name all small caps `/rustprojects` inside my user folder.  
 In Windows file/folder names are not case sensitive, but in Linux they are very sensitive. Be careful.  
-`mkdir rustprojects`  
-`cd rustprojects`  
+```
+mkdir rustprojects
+```  
+```
+cd rustprojects
+```  
 We will create a new rust project with this simple command  
-`cargo new first_hello`  
+```cargo new first_hello```  
 `cd first_hello`  
 You probably already know that you can type just `cd f` and then press the Tab key multiple times to get suggestions of subfolders name starting with `f`.  
 If not, try it. It works great.  
