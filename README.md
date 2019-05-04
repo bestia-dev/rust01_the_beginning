@@ -114,13 +114,12 @@ The result is in the `/target` folder. Normally the windows file ends with `.exe
 If you build a project in Linux the result will be for Linux. And if you build it in Windows, the result will be for Windows. The results are binary incompatible.  
   
 You can still use the Windows VSCode for editing the source code and windows Git for versioning. You then use the Debian bash just to build it and run it.  
-## Next projects
-https://github.com/LucianoBestia/rust02_workspace_and_testing  
-
 ## For the curious TL;DR;  
 The user home folder is called `~` in Linux and mostly `%HOMEPATH%` in Windows.  
 Windows can very often understand both \ and / as folder delimiters, but not always. In Linux there is only /. So it is smart to learn to user / everywhere where it works.  
 Linux file/folder names are very very case sensitive, windows are case insensitive. That can make a lot of confusion. Try to write always small caps names if it is possible. And try to avoid spaces and strange characters. Underscore is very well understood in every situation, I recommend it.  
+## Next projects
+https://github.com/LucianoBestia/rust02_workspace_and_testing  
 ## References
 https://doc.rust-lang.org/stable/book/  
   
