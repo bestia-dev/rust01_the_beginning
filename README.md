@@ -40,14 +40,20 @@ mkdir rustprojects
 cd rustprojects
 ```  
 We will create a new rust project with this simple command  
-```cargo new first_hello```  
-`cd first_hello`  
+```
+cargo new first_hello
+```  
+```
+cd first_hello
+```  
 You probably already know that you can type just `cd f` and then press the Tab key multiple times to get suggestions of subfolders name starting with `f`.  
 If not, try it. It works great.  
   
 For most of the commands it is really important in what folder you run them. Now you should be inside the `c:\users\Luciano\rustprojects\first_hello` folder (with your username and not mine).  
 Let build the project and run it:  
-`cargo run`  
+```
+cargo run
+```  
 Congratulations! You wrote your first working rust project.  
   
 I am sure you want to try this again one more time.  
@@ -89,13 +95,19 @@ I am now inside the same `/rustprojects` folder as in Windows.
 The Linux bash (console) has also suggestions for subfolder names if you type `cd r` and then Tab key, but it is not so user friendly as in windows. It has also the command history with `arrow up` and `arrow down`. That is great because it remembers also the old commands from old sessions.  
   
 Installing rust on Linux is simple:  
-`$ curl https://sh.rustup.rs -sSf | sh`  
+```
+$ curl https://sh.rustup.rs -sSf | sh
+```  
 You will find this info in the "book": https://doc.rust-lang.org/stable/book/  
   
 Go to the folder /first_hello  
-`cd first_hello`  
+```
+cd first_hello
+```  
 and build and run the project  
-`cargo run`  
+```
+cargo run
+```  
 Congratulations! The same project now works in Windows and also on Linux.  
   
 The result is in the `/target` folder. Normally the windows file ends with `.exe` like `first_hello.exe`, but the Linux file has no extension like `first_hello`.  
