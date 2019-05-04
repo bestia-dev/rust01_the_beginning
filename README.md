@@ -9,8 +9,8 @@ The "book" https://doc.rust-lang.org/stable/book/ is a great learning tool. The 
 I used Windows most of my long programmers life (33 years). It is still the number one desktop OS.  
 So for developing desktop apps it is a good start to have the developer environment inside Windows.  
 1. Go to https://www.rust-lang.org and choose `GET STARTED`.  
-2. Find the `RUSTUP-INI.EXE` (6MB) Download it and run it.  
-3. Windows Defender will warn you that the app is unrecognized. Choose `More info` and `Run anyway`. Take your responsabilities!  
+2. Find the `RUSTUP-INI.EXE` (6MB) Download it.  
+3. Run it. Windows Defender will warn you that the app is unrecognized. Choose `More info` and `Run anyway`. Take your responsabilities!  
 4. Read the text in the console and answer with default choices. They are ok for the first time install.  
 5. If you don't have `Tools for Visual Studio 2019` for C++ installed on your machine, you will get a warning by the installer and instruction what to do.  
 Find the installation of C++ tools here and install it:  
@@ -22,7 +22,7 @@ You have to choose
 - and then the latest `Windows 10 SDK xxx` on the right.  
 It will download (1.2 GB) and then install (4.4 GB).  
 Probably now you have to restart your PC.  
-GOTO step 2.  
+GOTO step 3.  
 6. Rustup will download and install a number of tools and documentation. Be patient with the docs, they take a looong time. There is a big discussion in the Rust community to not install them by default and let the user choose them later. But now we have what we have.  
   
 That's it. Rust is installed. Super simple (except for the C++ tools).  
