@@ -10,7 +10,7 @@ I used Windows most of my long programmers life (33 years). It is still the numb
 So for developing desktop apps it is a good start to have the developer environment inside Windows.  
 1. Go to https://www.rust-lang.org and choose `GET STARTED`.  
 2. Find the `RUSTUP-INI.EXE` (6MB) Download it.  
-3. Run it. Windows Defender will warn you that the app is unrecognized. Choose `More info` and `Run anyway`. Take your responsabilities!  
+3. Run it. Windows Defender will warn you that the app is unrecognized. Choose `More info` and `Run anyway`. Take your responsibilities!  
 4. Read the text in the console and answer with default choices. They are ok for the first time install.  
 5. If you don't have `Tools for Visual Studio 2019` for C++ installed on your machine, you will get a warning by the installer and instruction what to do.  
 Find the installation of C++ tools here and install it:  
@@ -31,8 +31,8 @@ That's it. Rust is installed. Super simple (except for the C++ tools).
 Press `window + s` (`window` is this strange key on the keyboard in the first row near `ctrl` and `alt`) it opens the start menu.  
 Start typing `command prompt` it will suggest you exactly that and press Enter to run it.  
 You should be inside your user folder. For me it is `C:\Users\Luciano`.  
-I created a folder with the name all smallcaps `/rustprojects` inside my user folder.  
-In Windows file/folder names are not case sensitive, but in Linux they are very sensitive. Be carefull.  
+I created a folder with the name all small caps `/rustprojects` inside my user folder.  
+In Windows file/folder names are not case sensitive, but in Linux they are very sensitive. Be careful.  
 `mkdir rustprojects`  
 `cd rustprojects`  
 We will create a new rust project with this simple command  
@@ -53,7 +53,7 @@ This time the compilation is really fast, because there is nothing new to compil
 ## VSCode
 Now you want to see and change the code. I choose the opensource editor VSCode.  
 Download it and install it from here https://code.visualstudio.com/  
-Run it and add a vscode extensions for rust `Ctrl + Shift + X`:
+Run it and add a VSCode extensions for rust `Ctrl + Shift + X`:
 - Rust (rls)
   
 Open your project with  
@@ -82,7 +82,7 @@ Now when I start Debian I am in my home user folder `~`
 and I can command  
 `cd rustprojects`  
 I am now inside the same `/rustprojects` folder as in Windows.  
-The linux bash (console) has also suggestions for subfolder names if you type `cd r` and then Tab key, but it is not so userfriendly as in windows. It has also the command history with `arrow up` and `arrow down`. That is great because it remembers also the old commands from old sessions.  
+The Linux bash (console) has also suggestions for subfolder names if you type `cd r` and then Tab key, but it is not so user friendly as in windows. It has also the command history with `arrow up` and `arrow down`. That is great because it remembers also the old commands from old sessions.  
   
 Installing rust on Linux is simple:  
 `$ curl https://sh.rustup.rs -sSf | sh`  
@@ -94,13 +94,13 @@ and build and run the project
 `cargo run`  
 Congratulations! The same project now works in Windows and also on Linux.  
   
-The result is in the `/target` foder. Normally the windows file ends with `.exe` like `first_hello.exe`, but the Linux file has no extension like `first_hello`.  
+The result is in the `/target` folder. Normally the windows file ends with `.exe` like `first_hello.exe`, but the Linux file has no extension like `first_hello`.  
 If you build a project in Linux the result will be for Linux. And if you build it in Windows, the result will be for Windows. The results are binary incompatible.  
   
 You can still use the Windows VSCode for editing the source code and windows Git for versioning. You then use the Debian bash just to build it and run it.  
 ## For the curious TL;DR;  
 The user home folder is called `~` in Linux and mostly `%HOMEPATH%` in Windows.  
 Windows can very often understand both \ and / as folder delimiters, but not always. In Linux there is only /. So it is smart to learn to user / everywhere where it works.  
-Linux file/folder names are very very case sensitive, windows are case insensitive. That can make a lot of confusion. Try to write always smallcaps names if it is possible. And try to avoid spaces and strange characters. Underscore is very well understood in every situation, I recommand it.  
+Linux file/folder names are very very case sensitive, windows are case insensitive. That can make a lot of confusion. Try to write always small caps names if it is possible. And try to avoid spaces and strange characters. Underscore is very well understood in every situation, I recommend it.  
   
 
