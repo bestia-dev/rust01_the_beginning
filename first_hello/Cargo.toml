@@ -3,5 +3,6 @@ name = "first_hello"
 version = "0.1.0"
 authors = ["Luciano Bestia <luciano.bestia@gmail.com>"]
 edition = "2018"
+publish = false
 
 [dependencies]
