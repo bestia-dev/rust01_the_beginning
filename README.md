@@ -1,7 +1,7 @@
 # rust01_the_beginning  
 
 **First steps for Rust development.**  
-***version: 1.0  date: 2019-05-02 author: [Dev_Bestia](https://bestia.dev) repositroy: [GitHub](https://github.com/LucianoBestia/rust01_the_beginning)***  
+***version: 1.0  date: 2019-05-02 author: [Dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/rust01_the_beginning)***  
 
 The first project in Rust. How to install the toolchain and have a first result in 5 minutes.  
 There is almost always a lot of different ways to achieve some result. I will describe only one option - for simplicity.  
