@@ -1,7 +1,7 @@
 # rust01_the_beginning  
 
 **First steps for Rust development.**  
-***version: 1.0  date: 2019-05-02 author: [Dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/rust01_the_beginning)***  
+***version: 1.0  date: 2019-05-02 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/rust01_the_beginning)***  
 
 The first project in Rust. How to install the toolchain and have a first result in 5 minutes.  
 There is almost always a lot of different ways to achieve some result. I will describe only one option - for simplicity.  
@@ -122,7 +122,7 @@ The user home folder is called `~` in Linux and mostly `%HOMEPATH%` in Windows.
 Windows can very often understand both \ and / as folder delimiters, but not always. In Linux there is only /. So it is smart to learn to user / everywhere where it works.  
 Linux file/folder names are very very case sensitive, windows are case insensitive. That can make a lot of confusion. Try to write always small caps names if it is possible. And try to avoid spaces and strange characters. Underscore is very well understood in every situation, I recommend it.  
 ## Next projects
-https://github.com/LucianoBestia/rust02_workspace_and_testing  
+https://github.com/bestia-dev/rust02_workspace_and_testing  
 ## References
 https://doc.rust-lang.org/stable/book/  
   
