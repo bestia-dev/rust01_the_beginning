@@ -3,6 +3,8 @@
 **First steps for Rust development.**  
 ***version: 1.0  date: 2019-05-02 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/rust01_the_beginning)***  
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbestia-dev%2Frust01_the_beginning&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 The first project in Rust. How to install the toolchain and have a first result in 5 minutes.  
 There is almost always a lot of different ways to achieve some result. I will describe only one option - for simplicity.  
 The learning process is easier if it is simple. But the reality is always much much more complicated then that.  
