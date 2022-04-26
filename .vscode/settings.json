@@ -6,5 +6,15 @@
         "markdown",
         "latex",
         "plaintext"
+    ],
+    "cSpell.words": [
+        "bestia",
+        "buildtools",
+        "distro",
+        "HOMEPATH",
+        "rustlang",
+        "rustprojects",
+        "RUSTUP",
+        "subfolders"
     ]
 }
