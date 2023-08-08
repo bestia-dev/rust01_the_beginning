@@ -3,6 +3,7 @@
 **First steps for Rust development.**  
 ***version: 1.0  date: 2019-05-02 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/rust01_the_beginning)***  
 
+![status](https://img.shields.io/badge/tutorial-yellow) 
 ![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/967080871.svg)
 
 Hashtags: #rustlang #tutorial  
