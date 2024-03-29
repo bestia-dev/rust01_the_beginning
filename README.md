@@ -5,11 +5,22 @@
 **First steps for Rust development.**  
 ***version: 1.0  date: 2019-05-02 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/rust01_the_beginning)***  
 
+ ![obsolete](https://img.shields.io/badge/obsolete-red)
  ![tutorial](https://img.shields.io/badge/tutorial-yellow)
  ![rust01_the_beginning](https://bestia.dev/webpage_hit_counter/get_svg_image/967080871.svg)
 
 Hashtags: #rustlang #tutorial  
 My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
+
+## OBSOLETE
+
+This project is now 4 years old and it is obsolete.
+Please follow this link to the updated version:
+<https://github.com/CRUSTDE-ContainerizedRustDevEnv/CRUSTDE_Containerized_Rust_DevEnv>
+
+There is still some interesting information in this project, so I will not archive it. But I don't recommend to use it for working projects.
+
+## Description
 
 The first project in Rust. How to install the toolchain and have a first result in 5 minutes.  
 There is almost always a lot of different ways to achieve some result. I will describe only one option - for simplicity.  
