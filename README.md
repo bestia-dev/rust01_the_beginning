@@ -18,7 +18,7 @@ My projects on Github are more like a tutorial than a finished product: [bestia-
 
 This project is now 4 years old and it is obsolete.
 Please follow this link to the updated version:
-<https://github.com/CRUSTDE-ContainerizedRustDevEnv/CRUSTDE_Containerized_Rust_DevEnv>
+<https://github.com/CRUSTDE-ContainerizedRustDevEnv>
 
 There is still some interesting information in this project, so I will not archive it. But I don't recommend to use it for working projects.
 
